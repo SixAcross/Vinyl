@@ -11,7 +11,7 @@ A brief demo of how to use RecordStores (the repository/mapper) and Records (the
     use PDO;
     use Doctrine\DBAL\DriverManager;
     use Doctrine\DBAL\Configuration;
-    use BitBalm\Vinyl\V1 as Vinyl;
+    use SixAcross\Vinyl\V1 as Vinyl;
     
     $pdo = new PDO( mysql:dbname=vinyl', 'vinyl', 'some_password' );
     $connection = DriverManager::getConnection( [ 'pdo' => $pdo, ], new Configuration );
