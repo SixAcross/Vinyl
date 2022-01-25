@@ -3,7 +3,7 @@
     "description": "A relational data mapper library",
     "minimum-stability": "stable",
     "type": "library",
-    "license": "LGPL-3.0-only",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Nato Welch",
